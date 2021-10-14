@@ -10,8 +10,10 @@ package git;
  * @author martin diaz
  */
 public class usuario {
+
     private String nombre;
-            private int edad;
+    private int edad;
+    private int altura;
 
     public usuario() {
     }
@@ -36,5 +38,5 @@ public class usuario {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-            
+
 }
